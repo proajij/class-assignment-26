@@ -1,0 +1,165 @@
+/* Defult Css */
+img{
+    max-width: 100%;
+}
+
+
+
+/* Blog Section */
+.our-client-section{
+	
+}
+.client-content-heading{
+position: relative;
+}
+.client-content-heading h1::after {
+	content: "";
+	position: absolute;
+	top: 170px;
+	left: 4px;
+	width: 8%;
+	height: 3px;
+	background-color: #3763eb;
+}
+.client-content-heading h5{
+	color: #5f82ef;
+
+}
+.client-content-heading  h1{
+	font-weight: 700;
+    position: relative;
+}
+.client-content-heading  p {
+	color: #837b90;
+	font-size: 17px;
+}
+.client-logo-section{
+	/* border: 2px solid #ddd; */
+
+	
+}
+
+.client-logo-section img {
+	color: #7a7a7a;
+	border: 2px solid #ddd;
+	width: 249px !important;
+	height: 160px;
+	transition: .4s;
+	opacity: 0.5;
+	margin-left: -5px;
+	box-sizing: border-box;
+	/* padding: 79px; */
+	cursor: pointer;
+}
+.client-logo-section img:hover{
+	opacity: 1;
+	background-color: #f6f9fc;
+	
+}
+
+
+/*  */
+.blog-content-heading{
+    
+}
+.blog-content-heading h5{
+color: #5f82ef;
+}
+.blog-content-heading h1 {
+	font-weight: 700;
+    position: relative;
+}
+.blog-content-heading h1::after {
+	content: "";
+	position: absolute;
+	top: 61px;
+	left: 615px;
+	width: 4%;
+	height: 3px;
+	background-color: #3763eb;
+}
+.blog-content-heading p {
+	color: #837b90;
+	font-size: 17px;
+}
+.blog{
+    padding-left: 0;
+    position: relative;
+}
+.blog h4 {
+	font-weight: 600;
+	font-size: 30px;
+	margin-top: 20px;
+}
+.blog p {
+	color: #808080;
+	font-size: 17px;
+	margin-bottom: 0;
+    margin-top: 20px;
+}
+.blog-author {
+	padding: 6px 22px;
+	background: #3763eb;
+	border-radius: 30px;
+	position: absolute;
+	/* text-align: center; */
+	top: 204px;
+	right: 10px;
+}
+.blog-author img {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	margin-left: -15px;
+}
+.footer-section{
+    background-color: #081828;
+}
+.f-section-one img{
+    width: 150px;
+}
+.f-section-one p {
+	color: #e3e5e7;
+	line-height: 30px;
+	margin-top: 20px;
+}
+.f-section-one i {
+	color: #fff;
+	margin-left: 34px;
+	padding-left: 0;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.span1 i{
+margin-left: 0;
+}
+.f-section-other{ 
+    color: #fff;
+}
+.f-section-other ul{
+    list-style: none;
+    padding-left: 0;
+}
+.f-section-other ul li{
+    color: #b2babd;
+}
+.f-section-other h4{
+    position: relative;
+}
+.f-section-other h4::before {
+	content: "";
+	position: absolute;
+	background-color: #3763eb;
+	height: 31px;
+	width: 3px;
+	left: -15px;
+	top: 0px;
+}
+hr {
+	color: #b2babd;
+	height: 2px !important;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+}
